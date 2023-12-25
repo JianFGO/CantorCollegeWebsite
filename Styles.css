@@ -147,10 +147,6 @@ footer ul li {
     margin-right: 10px; /* Add some margin to the right for spacing */
 }
 
-/* Adjust other styles as needed */
-
-
-
 
 .mySlides {
     position: absolute;
@@ -164,4 +160,12 @@ footer ul li {
     opacity: 1;
 }
 
+#about {
+    max-width: 1050px; /* Set a maximum width for the content */
+    margin: 20px 0 20px 20px; /* Margin: top right bottom left */
+    padding: 20px; /* Add padding around the content */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #f9f9f9; /* Add a background color */
+    text-align: justify; /* Align text */
+}
 
