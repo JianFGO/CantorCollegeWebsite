@@ -74,7 +74,7 @@ footer {
 }
 
 .facilities-section {
-    background-color: #dac0c0; /* Choose the background color you prefer */
+    background-color: #dac0c0; 
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -101,6 +101,20 @@ footer {
     list-style: disc;
 }
 
+/* Additional styles for images */
+.facilities-images {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between images */
+    margin-top: 20px; /* Add margin between text and images */
+}
+
+.facilities-images img {
+    max-width: 500px; /* Adjust the width of the images */
+    height: auto;
+}
+
+
 /* Footer content styles */
 footer .contact-info,
 footer .quick-links,
@@ -122,4 +136,9 @@ footer ul li {
 .footer .icon {
     color: #fff;
     margin-right: 10px;
+}
+
+/* CSS for slideshow container and images */
+.mySlides {
+    display: none;
 }
