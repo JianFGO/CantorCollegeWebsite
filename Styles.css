@@ -58,14 +58,16 @@ footer {
     padding: 20px;
 }
 
+/* Additional styles for image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space below the image */
+}
 
-
-/* Footer styles */
-footer {
-    background-color: #333;
-    color: #fff;
-    text-align: center;
-    padding: 20px;
+.image-container img {
+    max-width: 100%;
+    height: auto;
 }
 
 footer .contact-info,
@@ -89,4 +91,3 @@ footer ul li {
     color: #fff;
     margin-right: 10px;
 }
-
