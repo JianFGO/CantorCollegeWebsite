@@ -141,4 +141,10 @@ footer ul li {
 /* CSS for slideshow container and images */
 .mySlides {
     display: none;
+    transition: transform 0.5s ease; /* Apply a smooth transition */
 }
+
+.slide-active {
+    display: block;
+}
+
