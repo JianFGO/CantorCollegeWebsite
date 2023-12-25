@@ -169,3 +169,14 @@ footer ul li {
     text-align: justify; /* Align text */
 }
 
+
+.text-box {
+    max-width: 1050px; 
+    margin: 20px 0 20px 20px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9;
+    text-align: justify; 
+    margin-top: 20px; 
+}
+
