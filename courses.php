@@ -94,16 +94,16 @@
         </div>
     </main>
 
-    <footer>
-          <!-- Footer content -->
-          <div class="contact-info">
+    <footer class="footer">
+        <!-- Footer content -->
+        <div class="contact-info">
             <p>Contact us: info@cantorcollege.ac.uk | Tel: (01321) 2340 235 | Fax: (01321) 2340 236</p>
         </div>
         <div class="quick-links">
             <ul>
-                <li><a href="#about">About Us</a></li>
+                <li><a href="#">About Us</a></li>
                 <li><a href="how-to-find-us.html">How to Find Us</a></li>
-                <li><a href="#courses">Courses</a></li>
+                <li><a href="#">Courses</a></li>
                 <!-- Add other quick links -->
             </ul>
         </div>
