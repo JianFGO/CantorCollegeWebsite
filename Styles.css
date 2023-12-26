@@ -51,12 +51,42 @@ main {
 }
 
 /* Footer styles */
-footer {
+.footer {
     background-color: #333;
-    color: #fff;
+    color: #fff; /* White text color for better contrast */
     text-align: center;
     padding: 20px;
 }
+
+/* Footer content styles */
+.footer .contact-info,
+.footer .quick-links,
+.footer .social-media {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Link styles within the footer */
+.footer a {
+    color: #fff; /* Set the color of the links */
+    text-decoration: none; /* Remove underline */
+}
+
+.footer a:hover {
+    text-decoration: underline; /* Add underline on hover if desired */
+}
+
+
 
 /* Additional styles for image container */
 .image-container {
@@ -115,28 +145,7 @@ footer {
 }
 
 
-/* Footer content styles */
-footer .contact-info,
-footer .quick-links,
-footer .social-media {
-    margin-bottom: 20px;
-}
 
-footer ul {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-
-footer ul li {
-    display: inline;
-    margin-right: 20px;
-}
-
-.footer .icon {
-    color: #fff;
-    margin-right: 10px;
-}
 
 /* CSS for slideshow container and images */
 .slideshow-container {
