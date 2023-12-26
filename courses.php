@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore the range of courses offered at Cantor College, including computing, cyber security, graphic design, and more.">
     <title>Courses - Cantor College</title>
     <link rel="stylesheet" href="styles.css"> 
 </head>
@@ -94,7 +95,23 @@
     </main>
 
     <footer>
-        <!-- Footer content -->
+          <!-- Footer content -->
+          <div class="contact-info">
+            <p>Contact us: info@cantorcollege.ac.uk | Tel: (01321) 2340 235 | Fax: (01321) 2340 236</p>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="how-to-find-us.html">How to Find Us</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <!-- Add other quick links -->
+            </ul>
+        </div>
+        <div class="social-media">
+            <a href="#" class="icon">Facebook</a>
+            <a href="#" class="icon">Twitter</a>
+            <!-- Add other social media icons -->
+        </div>
     </footer>
 
     <!-- Add your JavaScript links or scripts if needed -->
