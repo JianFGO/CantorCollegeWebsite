@@ -52,7 +52,7 @@ main {
 
 /* Footer styles */
 .footer {
-    background-color: #333;
+    background-color: #222; /* Darker background */
     color: #fff; /* White text color for better contrast */
     text-align: center;
     padding: 20px;
@@ -76,15 +76,12 @@ main {
     margin-right: 20px;
 }
 
-/* Link styles within the footer */
-.footer a {
-    color: #fff; /* Set the color of the links */
-    text-decoration: none; /* Remove underline */
+.footer .icon {
+    color: #fff;
+    margin-right: 10px;
 }
 
-.footer a:hover {
-    text-decoration: underline; /* Add underline on hover if desired */
-}
+
 
 
 
