@@ -113,8 +113,5 @@
             <!-- Add other social media icons -->
         </div>
     </footer>
-
-    <!-- Add your JavaScript links or scripts if needed -->
-    <script src="script.js"></script>
 </body>
 </html>
