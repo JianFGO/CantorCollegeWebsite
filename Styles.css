@@ -180,3 +180,19 @@ footer ul li {
     margin-top: 20px; 
 }
 
+/* Basic table styles */
+.table-container {
+    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+}
+
+.course-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.course-table th, .course-table td {
+    border: 1px solid #000; /* Adjust border styles */
+    padding: 8px; /* Adjust padding */
+    text-align: left;
+}
