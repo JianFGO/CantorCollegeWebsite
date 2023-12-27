@@ -50,9 +50,74 @@ main {
     padding: 50px;
 }
 
+/* Initially hide the navigation menu */
+.nav-menu {
+    display: on;
+}
+
+/* Style the mobile menu toggle button */
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* ... your existing CSS ... */
+
+/* Initially hide the navigation menu */
+.nav-menu {
+    display: none;
+}
+
+/* Style the mobile menu toggle button */
+.menu-toggle {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}
+
+/* Style the mobile menu toggle icon */
+.menu-toggle span {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin-bottom: 5px;
+    background-color: #a55959;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Rotate and show/hide the icon spans to create a cross or hamburger icon */
+.menu-toggle.open span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+}
+.menu-toggle.open span:nth-child(2) {
+    opacity: 0;
+}
+.menu-toggle.open span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+}
+
+/* Show the navigation menu for mobile devices */
+@media screen and (max-width: 768px) {
+    .nav-menu.open {
+        display: block;
+    }
+    .nav-menu ul {
+        padding: 0;
+        margin: 0;
+    }
+    .nav-menu li {
+        list-style-type: none;
+        margin-bottom: 10px;
+    }
+}
+
+
 /* Footer styles */
 .footer {
-    background-color: #222; /* Darker background */
+    background-color: #222; /* Dark background */
     color: #fff; /* White text color for better contrast */
     text-align: center;
     padding: 20px;
@@ -80,9 +145,6 @@ main {
     color: #fff;
     margin-right: 10px;
 }
-
-
-
 
 
 /* Additional styles for image container */
@@ -203,7 +265,7 @@ main {
     text-align: left;
 }
 
-/* New styles for rules governing resource services */
+/* styles for rules governing resource services */
 .rules-container {
     max-width: 800px;
     margin: 20px auto;
