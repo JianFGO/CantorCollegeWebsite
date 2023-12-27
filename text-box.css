@@ -1,0 +1,19 @@
+#about {
+    max-width: 1050px; /* Set a maximum width for the content */
+    margin: 20px 0 20px 20px; /* Margin: top right bottom left */
+    padding: 20px; /* Add padding around the content */
+    border: 1px solid #ccc; /* Add a border */
+    background-color: #f9f9f9; /* Add a background color */
+    text-align: justify; /* Align text */
+}
+
+
+.text-box {
+    max-width: 1050px; 
+    margin: 20px 0 20px 20px; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9;
+    text-align: justify; 
+    margin-top: 20px; 
+}

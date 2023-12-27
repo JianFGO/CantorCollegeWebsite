@@ -1,0 +1,123 @@
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Use the full viewport height */
+}
+
+/* styles for image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Add some space below the image */
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.facilities-section {
+    background-color: #dac0c0; 
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.facilities-section h2 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.facilities-section p,
+.facilities-section ul {
+    margin-bottom: 10px;
+}
+
+.facilities-section ul {
+    padding-left: 20px;
+}
+
+.facilities-section li {
+    list-style: disc;
+}
+
+/* Additional styles for images */
+.facilities-images {
+    display: flex;
+    align-items: center;
+    gap: 10px; /* Adjust the space between images */
+    margin-top: 20px; /* Add margin between text and images */
+}
+
+.facilities-images img {
+    max-width: 500px; /* Adjust the width of the images */
+    height: auto;
+}
+
+
+/* Footer content */
+.footer {
+    background-color: #222; /* Dark background */
+    color: #fff; /* White text color for better contrast */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Footer content styles */
+.footer .contact-info,
+.footer .quick-links,
+.footer .social-media {
+    margin-bottom: 20px;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer .icon {
+    color: #fff;
+    margin-right: 10px;
+}

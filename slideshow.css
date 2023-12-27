@@ -1,0 +1,19 @@
+.slideshow-container {
+    position: relative;
+    max-width: 500px; /* Adjust this value according to your container's width */
+    margin-left: auto; /* Push the container to the right */
+    margin-top: 10px; 
+    margin-right: 10px; /* Add some margin to the right for spacing */
+}
+
+.mySlides {
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out; /* Set fade transition duration */
+}
+
+.mySlides.active {
+    opacity: 1;
+}

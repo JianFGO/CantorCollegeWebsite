@@ -5,7 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the range of courses offered at Cantor College, including computing, cyber security, graphic design, and more.">
     <title>Courses - Cantor College</title>
-    <link rel="stylesheet" href="styles.css"> 
+    <link rel="stylesheet" href="general.css"> 
+    <link rel="stylesheet" href="main.css"> 
+    <link rel="stylesheet" href="slideshow.css"> 
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="text-box.css">
+    <link rel="stylesheet" href="table.css">  
 </head>
 <body>
     <header>

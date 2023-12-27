@@ -1,0 +1,33 @@
+/* styles for rules governing resource services */
+.rules-container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rules-container h2 {
+    margin-bottom: 20px;
+}
+
+.rules-container p {
+    margin-bottom: 15px;
+    text-align: justify;
+}
+
+.rules-container ol {
+    list-style-type: lower-alpha;
+    margin-left: 20px;
+}
+
+.rules-container ol ol {
+    list-style-type: decimal;
+    margin-left: 20px;
+}
+
+.rules-container li {
+    margin-bottom: 10px;
+    text-align: justify;
+}
