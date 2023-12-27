@@ -4,10 +4,37 @@ main {
 }
 
 .banner {
+    
     background-image: url('assignment-package/website-images-assets/Banner\ colour\ WEBP.webp'); 
     background-size: cover; 
     color: #fff;
     text-align: center;
     padding: 50px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Adjust alignment between sections */
+    padding: 20px;
+}
+
+.content-side {
+    flex: 1;
+    max-width: calc(70% - 20px); /* Adjust content-side width */
+    box-sizing: border-box; /* Include padding and border in width */
+}
+
+.slideshow-side {
+    flex: 1;
+    max-width: calc(20% - 20px); /* Adjust slideshow-side width */
+    box-sizing: border-box; /* Include padding and border in width */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* Adjust alignment within slideshow-side */
+    align-items: flex-end; /* Align content to the right */
+    margin-left: auto; /* Push the container to the right */
+    margin-top: 10px;
+    margin-bottom: 10px; /* Add some margin to the top and bottom for spacing */
 }
 /* Add other main content styles here */
