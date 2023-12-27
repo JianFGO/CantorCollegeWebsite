@@ -26,8 +26,8 @@
     
     
 
-    <main>
-        <!-- Content will be loaded dynamically based on the clicked tab -->
+    <main class="flex-container">
+    <section class="content-side">
         <section class="banner">
             <!-- Banner content -->
             <h1>Welcome to Cantor College</h1>
@@ -35,21 +35,6 @@
             <a href="courses.php" class="btn">Discover Courses</a>
         </section>
 
-        <div class="slideshow-container">
-            <div class="mySlides fade active">
-                <img src="assignment-package/website-images-assets/20230829_111351.jpg" style="width:100%">
-            </div>
-            <div class="mySlides fade">
-                <img src="assignment-package/website-images-assets/Cantor atrium 3.jpg" style="width:100%">
-            </div>
-            <!-- Add more slides with different images -->
-        </div>
-
-        
-</section>
-
-        </section>
-        <!-- Content for "About Us" -->
         <section id="about" class="content">
             <h2>About Us</h2>
             <p>Cantor College was established in 1989 to specialize in Computing and Design.  
@@ -61,7 +46,7 @@
                 Whatever your ambitions, our learning and support can maximize your time at Cantor College, 
                 both as a student and in your future career.</p>
         </section>
-        
+
         <div class="text-box">
             <h3>Computing Courses</h3>
             <p>The College offers a range of courses to suit applicants with varying backgrounds and educational abilities. At undergraduate level, there are single BSc Honours Degree courses in Computing, Computer Networks, Software Engineering and Cyber Security with Forensics amongst others.</p>
@@ -75,7 +60,21 @@
             <p>The College's art and design courses don't just train you, they promote alternative ways of thinking, making and communicating; they provide you with space, tools and inspiration to develop your creative practice and a clear career path.</p>
             <p>You’ll develop your creative practice whilst interacting with your peers in well-equipped studios, making and digital workshops. At the same time, you'll learn professional skills by working on applied briefs facilitated through our links with commercial clients, cultural institutions, businesses and organisations.</p>
         </div>
-    </main>
+    </section>
+
+    <section class="slideshow-side">
+        <div class="slideshow-container">
+            <div class="mySlides fade active">
+                <img src="assignment-package/website-images-assets/20230829_111351.jpg" style="width:100%">
+            </div>
+            <div class="mySlides fade">
+                <img src="assignment-package/website-images-assets/Cantor atrium 3.jpg" style="width:100%">
+            </div>
+            <!-- Add more slides with different images -->
+        </div>
+    </section>
+</main>
+
 
     <footer class="footer">
         <!-- Footer content -->
