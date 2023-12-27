@@ -1,15 +1,16 @@
-main {
-    flex: 1; /* Allow the main content to grow and take remaining space */
-    padding: 20px;
+.main {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .banner {
-    
+    flex: 1;
     background-image: url('assignment-package/website-images-assets/Banner\ colour\ WEBP.webp'); 
     background-size: cover; 
     color: #fff;
     text-align: center;
     padding: 50px;
+    margin-bottom: 20px; /* Add margin to separate from the content */
 }
 
 .flex-container {
@@ -17,24 +18,23 @@ main {
     flex-wrap: wrap;
     justify-content: space-between; /* Adjust alignment between sections */
     padding: 20px;
+    /* Add other Flexbox properties as needed */
 }
+
 
 .content-side {
     flex: 1;
     max-width: calc(70% - 20px); /* Adjust content-side width */
     box-sizing: border-box; /* Include padding and border in width */
+    margin-right: 20px; /* Margin to create space between content and image */
 }
 
 .slideshow-side {
     flex: 1;
-    max-width: calc(20% - 20px); /* Adjust slideshow-side width */
+    max-width: calc(30% - 20px); /* Adjust slideshow-side width */
     box-sizing: border-box; /* Include padding and border in width */
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; /* Adjust alignment within slideshow-side */
-    align-items: flex-end; /* Align content to the right */
-    margin-left: auto; /* Push the container to the right */
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 10px; /* Add some margin to the top and bottom for spacing */
 }
+
 /* Add other main content styles here */
