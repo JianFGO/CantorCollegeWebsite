@@ -14,13 +14,23 @@
     max-width: calc(100% - 20px); /* Adjust maximum width for the banner */
 }
 
+
+.logo-flex-container {
+    display: flex;
+    align-items: center; /* Align logo container vertically */
+    justify-content: flex-end; /* Align content to the end (top-right) */
+    margin-top: -550px; /* Move the logo up by adjusting the margin */
+    margin-right: 100px;
+}
+.logo-container {
+    margin-left: auto; /* Push the logo to the right */
+    align-self: flex-end; /* Align the logo to the flex-end (top-right) */
+}
+
 .top-right-image-logo {
-    position: absolute;
-    top: 50px;
-    right: 90px;
-    width: 260px;
-    height: auto;
-    /* Other styles for the top-right logo */
+    width: 260px; /* Adjust the width as needed */
+    height: auto; /* Maintain aspect ratio */
+    /* Other styles for the logo */
 }
 
 
@@ -46,6 +56,7 @@
     box-sizing: border-box; /* Include padding and border in width */
     margin-top: 0px;
     margin-bottom: 10px; /* Add some margin to the top and bottom for spacing */
+    position: relative;
 }
 
 /* Add other main content styles here */

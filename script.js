@@ -11,3 +11,4 @@ function showSlides() {
     slides[slideIndex - 1].classList.add("active");
     setTimeout(showSlides, 5000);
 }
+
