@@ -4,24 +4,24 @@
 }
 
 .banner {
-    flex: 2;
+    flex: 4; /* Increase the factor to allocate more space to the banner */
     background-image: url('assignment-package/website-images-assets/Banner\ colour\ WEBP.webp'); 
     background-size: cover; 
     color: #fff;
     text-align: center;
     padding: 50px;
     margin-bottom: 20px; /* Add margin to separate from the content */
+    max-width: calc(100% - 20px); /* Adjust maximum width for the banner */
 }
 
 .top-right-image-logo {
     position: absolute;
     top: 50px;
-    right: 20px;
+    right: 90px;
     width: 260px;
     height: auto;
     /* Other styles for the top-right logo */
 }
-
 
 
 .flex-container {
