@@ -11,18 +11,3 @@ function showSlides() {
     slides[slideIndex - 1].classList.add("active");
     setTimeout(showSlides, 5000);
 }
-
-document.addEventListener('DOMContentLoaded', function() {
-    var menuToggle = document.getElementById('menuToggle');
-    var navMenu = document.querySelector('.nav-menu');
-
-    menuToggle.addEventListener('click', function() {
-        navMenu.classList.toggle('open');
-    });
-});
-
-
-menuToggle.addEventListener('click', function() {
-    console.log('Clicked!');
-    navMenu.classList.toggle('open');
-});
