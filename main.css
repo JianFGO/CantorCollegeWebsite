@@ -4,7 +4,7 @@
 }
 
 .banner {
-    flex: 1;
+    flex: 2;
     background-image: url('assignment-package/website-images-assets/Banner\ colour\ WEBP.webp'); 
     background-size: cover; 
     color: #fff;
@@ -12,6 +12,17 @@
     padding: 50px;
     margin-bottom: 20px; /* Add margin to separate from the content */
 }
+
+.top-right-image-logo {
+    position: absolute;
+    top: 50px;
+    right: 20px;
+    width: 260px;
+    height: auto;
+    /* Other styles for the top-right logo */
+}
+
+
 
 .flex-container {
     display: flex;
@@ -23,8 +34,8 @@
 
 
 .content-side {
-    flex: 1;
-    max-width: calc(70% - 20px); /* Adjust content-side width */
+    flex: 3;
+    max-width: calc(100% - 20px); /* Adjust content-side width */
     box-sizing: border-box; /* Include padding and border in width */
     margin-right: 20px; /* Margin to create space between content and image */
 }
