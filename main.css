@@ -15,31 +15,26 @@
 }
 
 
-/* For larger screens */
-@media screen and (min-width: 768px) {
-    .logo-flex-container {
-        margin-top: -125%; /* Adjust the percentage for the desired position */
-        margin-right: 35%; /* Adjust as needed */
-    }
+
+.logo-flex-container {
+        margin-top: -131%; /* Adjust the percentage for the desired position */
+        margin-right: 25%; /* Adjust as needed */
+        position: relative; /* Ensure relative positioning */
 }
 
-/* For smaller screens */
-@media screen and (max-width: 767px) {
-    .logo-flex-container {
-        margin-top: 10px; /* Adjust as needed for smaller screens */
-        margin-right: 20px; /* Adjust as needed for smaller screens */
-        justify-content: flex-start; /* Align content to the start for smaller screens */
-    }
-}
+
 
 .logo-container {
-    margin-left: auto; /* Push the logo to the right */
+    margin-left: 60px; /* Push the logo to the right */
     align-self: flex-end; /* Align the logo to the flex-end (top-right) */
 }
 
 .top-right-image-logo {
-    width: 260px; /* Adjust the width as needed */
+    width: 100%; /* Set the width to 100% to fit the container */
     height: auto; /* Maintain aspect ratio */
+    max-width: 250px; /* Set the maximum width for the image */
+    object-fit: contain; /* Maintain aspect ratio without cropping */
+    display: block; /* Ensures it behaves as a block element */
     /* Other styles for the logo */
 }
 
@@ -64,7 +59,7 @@
     flex: 1;
     max-width: calc(30% - 20px); /* Adjust slideshow-side width */
     box-sizing: border-box; /* Include padding and border in width */
-    margin-top: 0px;
+    margin-top: 20px;
     margin-bottom: 10px; /* Add some margin to the top and bottom for spacing */
     position: relative;
 }
