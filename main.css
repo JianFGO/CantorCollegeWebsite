@@ -15,12 +15,21 @@
 }
 
 
-.logo-flex-container {
-    display: flex;
-    align-items: center; /* Align logo container vertically */
-    justify-content: flex-end; /* Align content to the end (top-right) */
-    margin-top: -520px; /* Move the logo up by adjusting the margin */
-    margin-right: 90px;
+/* For larger screens */
+@media screen and (min-width: 768px) {
+    .logo-flex-container {
+        margin-top: -125%; /* Adjust the percentage for the desired position */
+        margin-right: 35%; /* Adjust as needed */
+    }
+}
+
+/* For smaller screens */
+@media screen and (max-width: 767px) {
+    .logo-flex-container {
+        margin-top: 10px; /* Adjust as needed for smaller screens */
+        margin-right: 20px; /* Adjust as needed for smaller screens */
+        justify-content: flex-start; /* Align content to the start for smaller screens */
+    }
 }
 
 .logo-container {
