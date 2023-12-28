@@ -21,17 +21,16 @@
 @media (max-width: 600px) {
     .banner {
         flex: 4; 
-    background-image: url('assignment-package/website-images-assets/Banner 90 high.jpg');
-    background-size: cover; 
-    color: #fff;
-    text-align: center;
-    padding: 50px;
-    margin-bottom: 20px; 
-    max-width: calc(100% - 20px); 
+        background-image: url('assignment-package/website-images-assets/Banner 90 high.jpg');
+        background-size: cover; /* Adjusts the background image size */
+        background-position: center; /* Centers the background image */
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        margin-bottom: 20px; 
+        max-width: calc(100% - 20px); 
     }
 }
-
-
 
 
 .logo-flex-container {
