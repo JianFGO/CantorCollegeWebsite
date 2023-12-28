@@ -4,15 +4,33 @@
 }
 
 .banner {
-    flex: 4; /* Increase the factor to allocate more space to the banner */
+    flex: 4;
+    color: #fff;
+    text-align: center;
+    padding: 50px;
+    margin-bottom: 20px;
+    max-width: calc(100% - 20px);
+}
+
+.banner img {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    display: block;
+}
+
+
+
+/* .banner {
+    flex: 4; 
     background-image: url('assignment-package/website-images-assets/Banner-colour-WEBP-edited.webp'); 
     background-size: cover; 
     color: #fff;
     text-align: center;
     padding: 50px;
-    margin-bottom: 20px; /* Add margin to separate from the content */
-    max-width: calc(100% - 20px); /* Adjust maximum width for the banner */
-}
+    margin-bottom: 20px; 
+    max-width: calc(100% - 20px); 
+} */
 
 
 
