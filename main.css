@@ -21,7 +21,7 @@
 @media (max-width: 600px) {
     .banner {
         flex: 4; 
-    background-image: url('assignment-package/website-images-assets/Banner needs crop.jpg');
+    background-image: url('assignment-package/website-images-assets/Banner 90 high.jpg');
     background-size: cover; 
     color: #fff;
     text-align: center;
@@ -90,7 +90,5 @@
         display: none; /* Hide the slideshow section on mobile */
     }
 
-    .banner {
-        background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Mobile.jpg'); /* Desktop background image */
-    }
+    
 }
