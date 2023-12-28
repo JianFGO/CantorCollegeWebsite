@@ -65,3 +65,10 @@
 }
 
 /* Add other main content styles here */
+
+
+@media only screen and (max-width: 768px) {
+    .slideshow-side {
+        display: none; /* Hide the slideshow section on mobile */
+    }
+}
