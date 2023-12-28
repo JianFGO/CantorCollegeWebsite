@@ -21,7 +21,7 @@
 @media (max-width: 600px) {
     .banner {
         flex: 4; 
-    background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Mobile.jpg');
+    background-image: url('assignment-package/website-images-assets/Optimized-Banner Mobile.jpg');
     background-size: cover; 
     color: #fff;
     text-align: center;
@@ -91,6 +91,6 @@
     }
 
     .banner {
-        background-image: url('assignment-package/website-images-assets/Banner-colour-WEBP-Mobile.webp'); /* Desktop background image */
+        background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Mobile.jpg'); /* Desktop background image */
     }
 }
