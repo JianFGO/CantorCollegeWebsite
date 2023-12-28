@@ -3,17 +3,24 @@
     flex-wrap: wrap;
 }
 
+/* For desktop devices */
+@media (min-width: 601px) {
+    .banner {
+        background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Desktop.jpg');
+        background-size: cover;
+        /* Other styles */
+    }
+}
 
-.banner {
-    flex: 4; 
-    background-image: url('assignment-package/website-images-assets/Banner-colour-WEBP-edited.webp'); 
-    background-size: cover; 
-    color: #fff;
-    text-align: center;
-    padding: 50px;
-    margin-bottom: 20px; 
-    max-width: calc(100% - 20px); 
-} 
+/* For mobile devices */
+@media (max-width: 600px) {
+    .banner {
+        background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Mobile.jpg');
+        background-size: cover;
+        /* Other styles */
+    }
+}
+
 
 
 
@@ -74,6 +81,6 @@
     }
 
     .banner {
-        background-image: url('assignment-package/website-images-assets/Banner-colour-png-mobile.png'); /* Desktop background image */
+        background-image: url('assignment-package/website-images-assets/Banner-colour-WEBP-Mobile.webp'); /* Desktop background image */
     }
 }
