@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="slideshow.css"> 
     <link rel="stylesheet" href="text-box.css">
     <link rel="stylesheet" href="table.css">  
+    <link rel="stylesheet" href="gallery.css">
 </head>
 <body>
     <header>
@@ -96,6 +97,13 @@
                     ?>
                 </tbody>
             </table>
+        </div>
+
+        <h2>Sheffield Hallam Gallery</h2>
+        <div class="gallery-container">
+            <img src="assignment-package/website-images-assets/IMG_0523.jpeg" alt="Lab students pointing">
+            <img src="assignment-package/website-images-assets/IMG_1005.jpeg" alt="Sheffield sign">
+            <img src="assignment-package/website-images-assets/IMG_1087.jpeg" alt="Lab Lecture">
         </div>
     </main>
 
