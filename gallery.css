@@ -23,12 +23,23 @@
 }
 
 
+@media only screen and (max-width: 600px) {
+    .gallery-container {
+        grid-gap: 10px; /* Reduce grid gap */
+        padding: 10px; /* Reduce padding */
+    }
+}
+
 h2 {
     text-align: center;
     margin-top: 20px;
     font-size: 24px;
     font-weight: bold;
     color: #333; /* Adjust color as needed */
+}
+
+.gallery-description {
+    text-align: center;
 }
 
 .button-container {

@@ -27,7 +27,11 @@
     </header>
 
     <main>
-        <h1>Courses Offered</h1>
+    <section class="page-description">
+            <h1>Courses Offered at Cantor College</h1>
+            <p>Welcome to Cantor College's courses page. Here, you'll find a comprehensive list of the courses we offer along with their details and descriptions.</p>
+        </section>
+
         <button id="toggleButton">Toggle Course Table</button>
         <div class="table-container" id="courseTable" style="display: none;">
             <table class="course-table">
@@ -100,10 +104,8 @@
         </div>
 
         <h2>Sheffield Hallam Gallery</h2>
-        <div class="button-container">
-        <button id="toggleButton2">Toggle Gallery</button>
-        </div>
-        <div class="gallery-container" id="Gallery" style="display: none;">
+        <p class="gallery-description">A small look into our area.</p>
+        <div class="gallery-container">
             <img src="assignment-package/website-images-assets/IMG_0523.jpeg" alt="Lab students pointing">
             <img src="assignment-package/website-images-assets/IMG_1005.jpeg" alt="Sheffield sign">
             <img src="assignment-package/website-images-assets/IMG_1087.jpeg" alt="Lab Lecture">
@@ -138,6 +140,5 @@
     </footer>
 
     <script src="toggle.js"></script>
-    <script src="toggle2.js"></script>
 </body>
 </html>
