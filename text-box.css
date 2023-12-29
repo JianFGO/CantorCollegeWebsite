@@ -18,12 +18,3 @@
     text-align: justify; 
 }
 
-
-
-@media only screen and (max-width: 768px) {
-    .text-box h3 {
-        margin-top: 0; /* Remove top margin for h3 headings */
-    }
-    
-    
-}
