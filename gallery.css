@@ -30,3 +30,8 @@ h2 {
     font-weight: bold;
     color: #333; /* Adjust color as needed */
 }
+
+.button-container {
+    text-align: center;
+    margin-top: 20px; /* Adjust margin as needed */
+}

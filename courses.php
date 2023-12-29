@@ -100,7 +100,9 @@
         </div>
 
         <h2>Sheffield Hallam Gallery</h2>
+        <div class="button-container">
         <button id="toggleButton2">Toggle Gallery</button>
+        </div>
         <div class="gallery-container" id="Gallery" style="display: none;">
             <img src="assignment-package/website-images-assets/IMG_0523.jpeg" alt="Lab students pointing">
             <img src="assignment-package/website-images-assets/IMG_1005.jpeg" alt="Sheffield sign">
@@ -111,6 +113,8 @@
             <img src="assignment-package/website-images-assets/IMG_1298.jpeg" alt="Gate">
             <img src="assignment-package/website-images-assets/IMG_1318.jpeg" alt="Wall Art">
         </div>
+
+
     </main>
 
     <footer class="footer">
