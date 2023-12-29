@@ -4,7 +4,7 @@
 }
 
 /* For desktop devices */
-@media (min-width: 601px) {
+@media (min-width: 701px) {
     .banner {
         flex: 4; 
     background-image: url('assignment-package/website-images-assets/Optimized-Banner colour Desktop.jpg');
@@ -18,7 +18,7 @@
 }
 
 /* For mobile devices */
-@media (max-width: 600px) {
+@media (max-width: 700px) {
     .banner {
         flex: 4; 
         background-image: url('assignment-package/website-images-assets/Banner 90 high.jpg');
@@ -30,6 +30,12 @@
         margin-bottom: 20px; 
         max-width: calc(100% - 20px); 
     }
+    
+    .slideshow-side {
+        display: none; /* Hide the slideshow section on mobile */
+    }
+
+
 }
 
 
@@ -84,10 +90,3 @@
 /* Add other main content styles here */
 
 
-@media only screen and (max-width: 768px) {
-    .slideshow-side {
-        display: none; /* Hide the slideshow section on mobile */
-    }
-
-    
-}
