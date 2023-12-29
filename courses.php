@@ -28,7 +28,7 @@
 
     <main>
         <h1>Courses Offered</h1>
-         <button id="toggleButton">Toggle Course Table</button>
+        <button id="toggleButton">Toggle Course Table</button>
         <div class="table-container" id="courseTable" style="display: none;">
             <table class="course-table">
                 <thead>
@@ -100,10 +100,16 @@
         </div>
 
         <h2>Sheffield Hallam Gallery</h2>
-        <div class="gallery-container">
+        <button id="toggleButton2">Toggle Gallery</button>
+        <div class="gallery-container" id="Gallery" style="display: none;">
             <img src="assignment-package/website-images-assets/IMG_0523.jpeg" alt="Lab students pointing">
             <img src="assignment-package/website-images-assets/IMG_1005.jpeg" alt="Sheffield sign">
             <img src="assignment-package/website-images-assets/IMG_1087.jpeg" alt="Lab Lecture">
+            <img src="assignment-package/website-images-assets/IMG_1439.jpeg" alt="Cantor Building">
+            <img src="assignment-package/website-images-assets/IMG_0170.jpeg" alt="Pictures">
+            <img src="assignment-package/website-images-assets/IMG_1099.jpeg" alt="Meeting">
+            <img src="assignment-package/website-images-assets/IMG_1298.jpeg" alt="Gate">
+            <img src="assignment-package/website-images-assets/IMG_1318.jpeg" alt="Wall Art">
         </div>
     </main>
 
@@ -128,5 +134,6 @@
     </footer>
 
     <script src="toggle.js"></script>
+    <script src="toggle2.js"></script>
 </body>
 </html>

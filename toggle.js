@@ -7,3 +7,4 @@ document.getElementById('toggleButton').addEventListener('click', function() {
         courseTable.style.display = 'none';
     }
 });
+
