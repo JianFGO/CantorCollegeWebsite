@@ -106,7 +106,7 @@
         </div>
         <div class="quick-links">
             <ul>
-                <li><a href="#" class="icon">About Us</a></li>
+                <li><a href="home.html" class="icon">About Us</a></li>
                 <li><a href="how-to-find-us.html" class="icon">How to Find Us</a></li>
                 <li><a href="#" class="icon">Courses</a></li>
                 <!-- Add other quick links -->
