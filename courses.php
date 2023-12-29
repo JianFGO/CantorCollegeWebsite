@@ -27,7 +27,7 @@
 
     <main>
         <h1>Courses Offered</h1>
-        <button id="toggleButton">Toggle Course Table</button>
+         <button id="toggleButton">Toggle Course Table</button>
         <div class="table-container" id="courseTable" style="display: none;">
             <table class="course-table">
                 <thead>
