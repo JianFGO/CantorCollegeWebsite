@@ -27,7 +27,8 @@
 
     <main>
         <h1>Courses Offered</h1>
-        <div class="table-container">
+        <button id="toggleButton">Toggle Course Table</button>
+        <div class="table-container" id="courseTable" style="display: none;">
             <table class="course-table">
                 <thead>
                     <tr>
@@ -117,5 +118,7 @@
             <!-- Add other social media icons -->
         </div>
     </footer>
+
+    <script src="toggle.js"></script>
 </body>
 </html>

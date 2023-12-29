@@ -12,3 +12,15 @@ function showSlides() {
     setTimeout(showSlides, 5000);
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+    const toggleButton = document.getElementById('toggleButton');
+    const courseTable = document.getElementById('courseTable');
+
+    toggleButton.addEventListener('click', function() {
+        if (courseTable.style.display === 'none') {
+            courseTable.style.display = 'block';
+        } else {
+            courseTable.style.display = 'none';
+        }
+    });
+});
