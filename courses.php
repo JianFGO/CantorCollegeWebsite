@@ -32,6 +32,24 @@
             <p>Welcome to Cantor College's courses page. Here, you'll find a comprehensive list of the courses we offer along with their details and descriptions.</p>
         </section>
 
+        <form id="registrationForm" onsubmit="return validateForm()">
+    <label for="fullname">Full Name:</label>
+    <input type="text" id="fullname" name="fullname">
+    <br>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <br>
+    <label for="course">Select Course:</label>
+    <select id="course" name="course">
+        <option value="">Select Course</option>
+        <option value="computing">Computing</option>
+        <option value="design">Design</option>
+    </select>
+    <br>
+    <input type="submit" value="Register">
+</form>
+<div id="errorMessages"></div>
+        
         <button id="toggleButton">Toggle Course Table</button>
         <div class="table-container" id="courseTable" style="display: none;">
             <table class="course-table">
@@ -103,6 +121,7 @@
             </table>
         </div>
 
+
         <h2>Sheffield Hallam Gallery</h2>
         <p class="gallery-description">A small look into our area.</p>
         <div class="gallery-container">
@@ -140,5 +159,6 @@
     </footer>
 
     <script src="toggle.js"></script>
+    <script src="validate.js"></script>
 </body>
 </html>
