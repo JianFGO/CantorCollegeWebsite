@@ -38,7 +38,7 @@ function validateForm() {
 }
 
 function validateEmail(email) {
-    // Basic email validation using a regular expression
+    // Email validation
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
 }

@@ -34,7 +34,7 @@ body {
     min-height: 100vh; /* Use the full viewport height */
 }
 
-/* styles for image container */
+/* Styles for image container */
 .image-container {
     display: flex;
     justify-content: center;
@@ -42,15 +42,16 @@ body {
 }
 
 .image-container img {
-    max-width: 100%;
+    width: 100%; /* Adjusted width for responsiveness */
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
 }
 
+/* Styles for facilities section */
 .facilities-section {
-    background-color: #dac0c0; 
+    background-color: #dac0c0;
     padding: 20px;
     border-radius: 8px;
     margin-bottom: 20px;
@@ -80,15 +81,21 @@ body {
 /* Additional styles for images */
 .facilities-images {
     display: flex;
-    align-items: center;
-    gap: 10px; /* Adjust the space between images */
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px; /* Adjust the space between images */
     margin-top: 20px; /* Add margin between text and images */
 }
 
 .facilities-images img {
-    max-width: 500px; /* Adjust the width of the images */
+    width: 100%; /* Full width for images */
+    max-width: 300px; /* Adjust the maximum width for mobile */
     height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px; /* Add margin below each image */
 }
+
 
 
 /* Footer content */
@@ -184,12 +191,3 @@ body {
     /* Additional styles for desktop (min-width: 769px) */
     /* These styles will apply to screens wider than 768px */
 }    
-#toggleButton {
-    padding: 10px 20px;
-    border: none;
-    border-radius: 2px;
-    background-color: #007bff;
-    color: white;
-    cursor: pointer;
-    margin-bottom: 20px;
-}

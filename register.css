@@ -1,3 +1,4 @@
+/* Adjusted form styling for better contrast */
 
 form {
     max-width: 400px;
@@ -5,21 +6,22 @@ form {
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 5px;
-    background-color: #f9f9f9;
+    background-color: #f5f5f5; /* Slightly lighter background */
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px; /* Increased margin for better separation */
     font-weight: bold;
+    color: #444; /* Darkened label text color for better visibility */
 }
 
 input[type="text"],
 input[type="email"],
 select {
     width: calc(100% - 12px);
-    padding: 8px;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin-bottom: 15px; /* Increased margin for better separation */
     border: 1px solid #ccc;
     border-radius: 4px;
 }
@@ -27,10 +29,11 @@ select {
 input[type="submit"] {
     background-color: #007bff;
     color: white;
-    padding: 10px 20px;
+    padding: 12px 24px; /* Slightly increased padding for the button */
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
 }
 
 input[type="submit"]:hover {
@@ -38,7 +41,7 @@ input[type="submit"]:hover {
 }
 
 #errorMessages {
-    margin-top: 10px;
-    color: red;
+    margin-top: 15px; /* Increased margin for better separation */
+    color: #ff4444; /* Changed error message color for better visibility */
     font-weight: bold;
 }
