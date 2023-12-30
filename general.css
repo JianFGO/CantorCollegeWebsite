@@ -34,6 +34,23 @@ body {
     min-height: 100vh; /* Use the full viewport height */
 }
 
+/* CSS targeting the map image within map-container */
+.map-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    margin-bottom: 20px; /* Add margin at the bottom */
+}
+
+.map-container .map-image {
+    max-width: 100%; /* Adjusts the width of the image to fit its container */
+    height: auto; /* Maintains aspect ratio */
+    width: 1200px; /* Set a larger width for 4x size */
+}
+
+
 /* Styles for image container */
 .image-container {
     display: flex;
@@ -95,6 +112,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px; /* Add margin below each image */
 }
+
 
 
 
