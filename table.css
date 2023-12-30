@@ -1,4 +1,3 @@
-/* Basic table styles */
 .table-container {
     overflow-x: auto; /* Enable horizontal scrolling if necessary */
 }
@@ -15,47 +14,4 @@
     text-align: left;
 }
 
-/* Form styles */
-form {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #f9f9f9;
-}
 
-label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
-}
-
-input[type="text"],
-input[type="email"],
-select {
-    width: calc(100% - 12px);
-    padding: 8px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-}
-
-input[type="submit"] {
-    background-color: #007bff;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 4px;
-    cursor: pointer;
-}
-
-input[type="submit"]:hover {
-    background-color: #0056b3;
-}
-
-#errorMessages {
-    margin-top: 10px;
-    color: red;
-    font-weight: bold;
-}

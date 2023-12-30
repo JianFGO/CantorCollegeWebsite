@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Explore the range of courses offered at Cantor College, including computing, cyber security, graphic design, and more.">
     <title>Courses - Cantor College</title>
+    <link rel="stylesheet" href="toggle-table.css">
     <link rel="stylesheet" href="general.css"> 
     <link rel="stylesheet" href="main.css"> 
-    <link rel="stylesheet" href="slideshow.css"> 
     <link rel="stylesheet" href="text-box.css">
     <link rel="stylesheet" href="table.css">  
     <link rel="stylesheet" href="gallery.css">
+    <link rel="stylesheet" href="register.css">
 </head>
 <body>
     <header>
@@ -42,13 +43,27 @@
     <label for="course">Select Course:</label>
     <select id="course" name="course">
         <option value="">Select Course</option>
-        <option value="computing">Computing</option>
-        <option value="design">Design</option>
+        <option value="Computing">Computing</option>
+        <option value="Computer Networks">Computer Networks</option>
+        <option value="Cyber Security with Forensics">Cyber Security with Forensics</option>
+        <option value="Computer Science for Games">Computer Science for Games</option>
+        <option value="Software Engineering">Software Engineering</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Computing and Informatics">Computing and Informatics</option>
+        <option value="Cyber Security">Cyber Security</option>
+        <option value="Graphic Design">Graphic Design</option>
+        <option value="Interior Architecture and Design">Interior Architecture and Design</option>
+        <option value="Jewellery, Materials and Design">Jewellery, Materials and Design</option>
+        <option value="Game Design and Development">Game Design and Development</option>
+        <option value="Product Design">Product Design</option>
+        <option value="Digital Media Production">Digital Media Production</option>
     </select>
     <br>
     <input type="submit" value="Register">
 </form>
 <div id="errorMessages"></div>
+<div id="successMessage" style="display: none; color: green;">Thanks for registering! Further instructions will be highlighted in the email.</div>
+
         
         <button id="toggleButton">Toggle Course Table</button>
         <div class="table-container" id="courseTable" style="display: none;">

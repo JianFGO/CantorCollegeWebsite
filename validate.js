@@ -18,7 +18,23 @@ function validateForm() {
     }
 
     // If validation passes, allow form submission
-    return true;
+    // Here, you can include further actions or AJAX submission if needed
+
+    // For demonstration, showing a success message after 1 second (simulated delay)
+    setTimeout(function() {
+        document.getElementById("registrationForm").reset(); // Reset the form fields
+        document.getElementById("errorMessages").innerHTML = ""; // Clear any error messages
+
+        // Show the success message
+        document.getElementById("successMessage").style.display = "block";
+
+        // Hide the success message after 5 seconds (adjustable duration)
+        setTimeout(function() {
+            document.getElementById("successMessage").style.display = "none";
+        }, 7000); 
+    }, 1000); // Simulating a delay of 1 second before showing success message
+
+    return false; // Prevent actual form submission for this example
 }
 
 function validateEmail(email) {
@@ -26,3 +42,4 @@ function validateEmail(email) {
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
 }
+
