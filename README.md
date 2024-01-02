@@ -6,7 +6,7 @@ This project involves designing and developing a website for Cantor College, a f
 
 ### Project Requirements
 
-- **Technology Stack:** HTML, CSS, JavaScript
+- **Technology:** HTML, CSS, JavaScript
 - **Database Integration:** Backend database connection, using PHP/MySQL
 - **Assets:** Various file types provided by the fictional College Dean
 

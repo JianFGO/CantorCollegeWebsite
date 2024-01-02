@@ -1,15 +1,15 @@
 #about {
-    width: 90%; /* Adjust the width of the content */
-    max-width: 1050px; /* Set a maximum width for the content */
-    margin: 20px auto; /* Margin: top and bottom auto to center horizontally */
-    padding: 20px; /* Add padding around the content */
-    border: 1px solid #ccc; /* Add a border */
-    background-color: #f9f9f9; /* Add a background color */
-    text-align: justify; /* Align text */
+    width: 90%; 
+    max-width: 1050px; 
+    margin: 20px auto; 
+    padding: 20px; 
+    border: 1px solid #ccc; 
+    background-color: #f9f9f9; 
+    text-align: justify; 
 }
 
 .text-box {
-    width: 90%; /* Adjust the width of the text box */
+    width: 90%; 
     max-width: 1050px; 
     margin: 20px auto; 
     padding: 20px; 

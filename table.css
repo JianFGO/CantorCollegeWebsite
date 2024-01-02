@@ -1,5 +1,5 @@
 .table-container {
-    overflow-x: auto; /* Enable horizontal scrolling if necessary */
+    overflow-x: auto; 
 }
 
 .course-table {
@@ -9,8 +9,8 @@
 }
 
 .course-table th, .course-table td {
-    border: 1px solid #000; /* Adjust border styles */
-    padding: 8px; /* Adjust padding */
+    border: 1px solid #000; 
+    padding: 8px; 
     text-align: left;
 }
 

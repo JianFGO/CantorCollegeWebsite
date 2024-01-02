@@ -14,31 +14,26 @@ function validateForm() {
 
     if (errorMessages !== "") {
         document.getElementById("errorMessages").innerHTML = errorMessages;
-        return false; // Prevent form submission
+        return false; 
     }
 
-    // If validation passes, allow form submission
-    // Here, you can include further actions or AJAX submission if needed
-
-    // For demonstration, showing a success message after 1 second (simulated delay)
     setTimeout(function() {
-        document.getElementById("registrationForm").reset(); // Reset the form fields
-        document.getElementById("errorMessages").innerHTML = ""; // Clear any error messages
+        document.getElementById("registrationForm").reset(); 
+        document.getElementById("errorMessages").innerHTML = ""; 
 
         // Show the success message
         document.getElementById("successMessage").style.display = "block";
 
-        // Hide the success message after 5 seconds (adjustable duration)
+        // Hide the success message after 7 seconds 
         setTimeout(function() {
             document.getElementById("successMessage").style.display = "none";
         }, 7000); 
-    }, 1000); // Simulating a delay of 1 second before showing success message
+    }, 1000); 
 
-    return false; // Prevent actual form submission for this example
+    return false; 
 }
 
 function validateEmail(email) {
-    // Email validation
     var emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     return emailPattern.test(email);
 }
