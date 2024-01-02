@@ -1,8 +1,11 @@
 # CANTORCOLLEGEWEBSITE
 
+Jian lin He
+My user account is: c3014279 and the password remains the default.
+
 ## Overview
 
-This project involves designing and developing a website for Cantor College, a fictional educational institution. The website is built using HTML, CSS, and JavaScript, with potential integration of a backend database.
+This project involves designing and developing a website for Cantor College, a fictional educational institution. The website is built using HTML, CSS, and JavaScript, with integration of a backend database.
 
 ### Project Requirements
 
@@ -15,6 +18,9 @@ This project involves designing and developing a website for Cantor College, a f
 My website design relies on HTML and CSS, drawing inspiration from the module's lab materials. It incorporates provided text and appropriate images provided by the College Dean.
 
 ## Setup and Hosting Information
+
+The Database was created on XAMPP installed on my own PC/laptop.
+I have included the Database file in the submission.
 
 ### Development Environment
 
