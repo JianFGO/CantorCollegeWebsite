@@ -86,7 +86,7 @@
                 </thead>
                 <tbody>
                     <?php
-                    // Establish a connection to database 
+                    // Establish a connection to database (Change this if needed)
                     $servername = "localhost";
                     $username = "root";
                     $password = "Aarmau4life";
