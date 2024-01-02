@@ -12,7 +12,7 @@ This project involves designing and developing a website for Cantor College, a f
 
 ### Design Approach
 
-The website design relies on HTML and CSS, drawing inspiration from the module's lab materials. It incorporates provided text and appropriate images provided by the College Dean.
+My website design relies on HTML and CSS, drawing inspiration from the module's lab materials. It incorporates provided text and appropriate images provided by the College Dean.
 
 ## Setup and Hosting Information
 
